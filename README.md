@@ -20,5 +20,7 @@ implementations on the same input distance matrices. The length of the tour that
 Held-Karp found should always be less than or equal to the tour length that
 Local Search found. Why is this?
 
+Local search may not always find the shortest tour length. Held-Karp does far more work limiting the search space so that it is a guarantee to find the shortest path. Whereas in local search, we are only going to be able to find the tour that would greater than or equal to the tour length of the Held-Karp runtime. 
+
 Add the code to run your experiments, graphs, and an explanation of what you did
 to this markdown file.
